@@ -19,10 +19,12 @@ I'll keep here something like a requirements page and I'll also put any ideas th
 - 🔲 Get some design done
 
 # Decisions 💡
-
+- Deployer on https://valgueiro-portifolio.rj.r.appspot.com/
 - I will use my own css to do stuff, so I will not use any css framework. let's `display: flex` things
 
 # Things learned
 
 - How to get user audio using WEB APi
 - [SinonJS](https://sinonjs.org/) is DOPE!!
+- deploy in gcloud https://medium.com/@brian.young.pro/how-to-deploy-vue-js-app-to-google-cloud-with-cloud-build-ad104bb1cf60
+

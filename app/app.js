@@ -9,6 +9,4 @@ export default class App extends Application {
   Resolver = Resolver;
 }
 
-require('@google-cloud/debug-agent').start();
-
 loadInitializers(App, config.modulePrefix);
