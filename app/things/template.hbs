@@ -1,0 +1,6 @@
+<label for="input-name">New todo:</label>
+<Input
+  @value={{this.todoName}}
+/>
+
+<button type="button" {{on "click" this.log}}> Create </button>
