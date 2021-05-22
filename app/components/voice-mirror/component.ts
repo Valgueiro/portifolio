@@ -3,7 +3,8 @@ import { action } from '@ember/object';
 import { tracked } from '@glimmer/tracking';
 import getMediaDevicesPermissions from 'portifolio/utils/media-permissions';
 export default class VoiceMirrorComponent extends Component {
-  @tracked audio = '';
+  @tracked audioStarted: boolean = false;
+  @tracked audio: HTMLAudioElement;
 
   get isAudioAvailable() {
     return Boolean(this.audio);
